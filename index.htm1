@@ -1,17 +1,69 @@
-<!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<!DOCTYPE html><html lang="fa" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>دنیای هنرمندان</title>
+    <style>
+        body {
+            font-family: Tahoma, sans-serif;
+            background: #f8f3ff;
+            color: #332344;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #6c4a91;
+            color: white;
+            padding: 30px 15px;
+        }
+        h1 {
+            margin: 0;
+        }
+        main {
+            padding: 30px 15px;
+        }
+        .card {
+            background: white;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 16px;
+            max-width: 500px;
+            box-shadow: 0 4px 12px #ddd;
+        }
+        button {
+            background: #6c4a91;
+            color: white;
+            border: none;
+            padding: 12px 22px;
+            border-radius: 10px;
+            font-size: 16px;
+        }
+    </style>
 </head>
 <body>
-    <h1>به دنیای هنرمندان خوش آمدید :art:</h1>
+    <header>
+        <h1>:art: دنیای هنرمندان</h1>
+        <p>هنر تو، دنیای تو!</p>
+    </header><main>
+    <section class="card">
+        <h2>به جمع هنرمندان خوش آمدی!</h2>
+        <p>آثار هنری خودت را به دنیا معرفی کن.</p>
+        <button>شروع کن</button>
+    </section>
 
-    <p>آثار هنری خودت را به دنیا معرفی کن.</p>
+    <section class="card">
+        <h2>🖼 فروش آثار هنری</h2>
+        <p>آثار خاص و دست‌ساز هنرمندان را کشف کن.</p>
+    </section>
 
-    <h2>هنر تو، دنیای تو</h2>
+    <section class="card">
+        <h2>:sparkles: معرفی هنرمندان</h2>
+        <p>هنرت را به دیگران نشان بده و مخاطبانت را پیدا کن.</p>
+    </section>
+</main>
 
-    <p>اینجا هنرمندان می‌توانند آثارشان را معرفی کنند.</p>
 </body>
 </html>
+
+
